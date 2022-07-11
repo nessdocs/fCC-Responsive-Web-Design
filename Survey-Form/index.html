@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Technical Writing & Coding Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta lang="en" />
+  </head>
+  <body>
+    <h1 id="title">Technical Writing & Coding Survey</h1>
+    <p id="description">Please take our survey on coding knowledge and usage within the technical writing industry.</p>
+    <form id="survey-form" action="">
+      <fieldset>
+        <label id="name-label" class="bold">Name: <input id="name" type="text" placeholder="First and Last Name" required /></label>
+        <label id="email-label" class="bold">Email: <input id="email" type="email" placeholder="youremail@server.com" required /></label>
+        <label id="number-label" class="bold">Age: <input id="number" type="number" min="18" max="120" placeholder="Age" /></label>
+      </fieldset>
+      <fieldset>
+        <label id="dropdown-label" class="bold">What's the target audience you most often write for? 
+          <select name="audience" id="dropdown" required>
+            <option value="">Please select one.</option>
+            <option value="user">End User</option>
+            <option value="developer">Developer</option>
+          </select>
+        </label>
+        <p class="question">What is your experience level?</p> 
+          <label><input id="entry" name="exp" type="radio" value="Entry" class="inline" />Entry</label> 
+          <label><input id="mid" name="exp" type="radio" value="Mid-level" class="inline" />Mid-level</label>
+          <label><input id="senior" name="exp" type="radio" value="Senior" class="inline" />Senior</label>
+        </label>
+      </fieldset>
+      <fieldset>
+        <p class="question">What coding languages can you read and/or write?</p> 
+          <label><input id="checkbox" type="checkbox" value="none" class="inline" /> None.</label>
+          <label><input id="checkbox" type="checkbox" value="html-css" class="inline" /> HTML/CSS</label>
+          <label><input id="checkbox" type="checkbox" value="php" class="inline" /> PHP</label>
+          <label><input id="checkbox" type="checkbox" value="sql" class="inline" /> SQL</label>
+          <label><input id="checkbox" type="checkbox" value="javascript" class="inline" /> JavaScript</label>
+          <label><input id="checkbox" type="checkbox" value="java" class="inline" /> Java</label>
+          <label><input id="checkbox" type="checkbox" value="python" class="inline" /> Python</label>
+          <label><input id="checkbox" type="checkbox" value="c" class="inline" /> C</label>
+          <label><input id="checkbox" type="checkbox" value="c#" class="inline" /> C#</label>
+          <label><input id="checkbox" type="checkbox" value="c++" class="inline" /> C++</label>
+          <label><input id="checkbox" type="checkbox" value="swift" class="inline" /> Swift</label>
+          <label><input id="checkbox" type="checkbox" value="other" class="inline" /> Other</label>
+        <label id="textarea" class="bold">Please describe your coding experience and how it contributes to your writing: 
+          <textarea cols="50" rows="15" placeholder="(Required.)" required></textarea>           
+        </label>
+      </fieldset>
+      <input id="submit" type="submit">
+    </form>
+  </body>
+</html>
