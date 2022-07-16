@@ -7,6 +7,7 @@
   body {
     background-color: #000000;
     color: #EEEDFF;
+    font-size: 16px;
     font-family: Helvetica, Arial, sans-serif;
     margin: 0;
   }
@@ -53,14 +54,32 @@
   }
   
   h1 {
-    color: #fff7d9;
     text-align: center;
+  }
+  
+  h1, h2 {
+    color: #fff7d9;
+  }
+  
+  img {
+    display: block;
   }
   
   .scale {
     margin: 0 auto;
     max-width: 100%;
     height: auto;
+  }
+  
+  .border {
+    border: thin solid rgb(255, 247, 217, 0.25);
+  }
+  
+  figcaption {
+    margin-top: 10px;
+    font-family: Georgia;
+    text-align: center;
+    font-style: italic;
   }
   
   #footer-container {
@@ -74,7 +93,6 @@
     left: 0;
     height: 20%;
     z-index: 0;
-  
   }
   
   #footer-strip {
