@@ -57,7 +57,7 @@ main {
   margin: 0 auto;
   padding: 0 5% 0 5%;
   width: 90%;
-  max-width: 600px;
+  max-width: 675px;
 }
 
 h1 {
@@ -105,6 +105,10 @@ iframe {
   align-items: center;
   text-align: center;
   display: block;
+}
+
+.center {
+  text-align: center;
 }
 
 #footer-container {
