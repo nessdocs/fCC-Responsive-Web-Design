@@ -103,6 +103,7 @@ figcaption {
 iframe {
   margin: 5px auto;
   align-items: center;
+  text-align: center;
   display: block;
 }
 
