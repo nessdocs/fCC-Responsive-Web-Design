@@ -101,7 +101,8 @@ img {
 
 figcaption {
   margin: 15px 0 25px 0;
-  font-family: Georgia;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10px;
   text-align: center;
   font-style: italic;
 }
