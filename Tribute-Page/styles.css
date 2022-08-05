@@ -112,6 +112,14 @@ iframe {
   text-align: center;
 }
 
+.yellow {
+  color: #fff7d9;
+}
+
+.teal {
+  color: #3295a8;
+}
+
 #footer-container {
   margin: -30px 0 0 0;
   height: auto;
