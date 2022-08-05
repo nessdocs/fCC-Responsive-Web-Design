@@ -102,9 +102,9 @@ img {
 figcaption {
   margin: 15px 0 25px 0;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 10px;
+  font-size: 11px;
   text-align: center;
-  font-style: italic;
+  font-style: bold;
 }
 
 iframe {
