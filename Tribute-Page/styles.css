@@ -84,8 +84,8 @@ img {
 
 .wscale {
   margin: 0 auto;
-  width: auto;
-  max-height: 50%;
+  max-width: 50%;
+  height: auto;
 }
 
 .border {
