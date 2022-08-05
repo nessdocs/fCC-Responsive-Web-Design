@@ -82,6 +82,12 @@ img {
   height: auto;
 }
 
+.wscale {
+  margin: 0 auto;
+  width: auto;
+  max-height: 50%;
+}
+
 .border {
   border: thin solid rgb(255, 247, 217, 0.25);
 }
