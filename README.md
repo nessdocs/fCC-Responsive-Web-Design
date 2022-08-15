@@ -27,32 +27,32 @@ I had two ideas for a tribute page: either PO49 (Quinacridone Gold) watercolor p
 
 [View CSS Source @ Github](https://github.com/nessdocs/fCC-Responsive-Web-Design/blob/main/Tribute-Page/styles.css)
 
-~~### Technical Documentation Page
+~~### Technical Documentation Page~~
 
-~~*In Progress*
+~~*In Progress*~~
 
-~~[View in Browser]()
+~~[View in Browser]()~~
 
-~~[View HTML Source @ Github]()
+~~[View HTML Source @ Github]()~~
 
-~~[View CSS Source @ Github]()
+~~[View CSS Source @ Github]()~~
 
-~~### Product Landing Page
+~~### Product Landing Page~~
 
-~~*In Progress*
+~~*In Progress*~~
 
-~~[View in Browser]()
+~~[View in Browser]()~~
 
-~~[View HTML Source @ Github]()
+~~[View HTML Source @ Github]()~~
 
-~~[View CSS Source @ Github]()
+~~[View CSS Source @ Github]()~~
 
-~~### Personal Portfolio Page
+~~### Personal Portfolio Page~~
 
-~~*In Progress*
+~~*In Progress*~~
 
-~~[View in Browser]()
+~~[View in Browser]()~~
 
-~~[View HTML Source @ Github]()
+~~[View HTML Source @ Github]()~~
 
-~~[View CSS Source @ Github]()
+~~[View CSS Source @ Github]()~~
