@@ -1,6 +1,6 @@
 # freeCodeCamp Responsive Web Design Portfolio
 
-This repository hosts all the certification projects I've made for fCC's Responsive Web Design certification.
+This repository hosts all the projects I've made for fCC's Responsive Web Design certification.
 
 ## Content
 
