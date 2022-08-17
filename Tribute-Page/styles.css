@@ -114,8 +114,28 @@ iframe {
   display: block;
 }
 
+table {
+  width: 100%;
+}
+
+table, th, tr, td {
+  border-collapse: collapse;
+  border: 1px solid rgb(255, 247, 217, 0.25);
+  text-align: center;
+  padding: 5px;
+}
+
+th {
+  font-weight: bold;
+}
+
 .center {
   text-align: center;
+}
+
+.moments {
+  margin: 25px 0;
+  line-height: 120%;
 }
 
 .yellow {
