@@ -17,8 +17,6 @@ A quick survey about technical writing and coding experience. The design is extr
 
 ### Tribute Page
 
-*In Progress*
-
 I had two ideas for a tribute page: either PO49 (Quinacridone Gold) watercolor pigment or David Bowie's 1983 Serious Moonlight Tour. Bowie won.
 
 [View in Browser](https://nessdocs.github.io/fCC-Responsive-Web-Design/Tribute-Page/index.html)
