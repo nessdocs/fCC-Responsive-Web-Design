@@ -27,7 +27,7 @@ I had two ideas for a tribute page: either PO49 (Quinacridone Gold) watercolor p
 
 ### Technical Documentation Page
 
-Just a short technical doc about watercolor pigment properties.
+Just a short technical doc about watercolor pigment properties. Has a responsive design that changes based on screen size.
 
 [View in Browser](https://nessdocs.github.io/fCC-Responsive-Web-Design/Technical-Documentation-Page/index.html)
 
