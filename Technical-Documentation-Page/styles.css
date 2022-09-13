@@ -65,17 +65,24 @@ html {
 }
 
 #main-doc header {
+    display: block;
     font-size: 2rem;
     font-weight: lighter;
     text-align: left;
+}
+
+#main-doc header::after {
+    display: block;
+    content: "";
+    padding-bottom: 20px;
 }
 
 .padding {
     padding-top: 25px;
 }
 
-p {
-    line-height: 1.25;
+#main-doc li, p {
+    line-height: 1.75;
 }
 
 code {
