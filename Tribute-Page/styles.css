@@ -68,6 +68,10 @@ h1, h2, h3 {
   color: #fff7d9;
 }
 
+p {
+  line-height: 1.5;
+}
+
 img {
   display: block;
 }
