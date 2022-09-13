@@ -25,15 +25,15 @@ I had two ideas for a tribute page: either PO49 (Quinacridone Gold) watercolor p
 
 [View CSS Source @ Github](https://github.com/nessdocs/fCC-Responsive-Web-Design/blob/main/Tribute-Page/styles.css)
 
-~~### Technical Documentation Page~~
+### Technical Documentation Page
 
-~~*In Progress*~~
+Just a short technical doc about watercolor pigment properties. Has a responsive design that changes based on screen size.
 
-~~[View in Browser]()~~
+[View in Browser](https://nessdocs.github.io/fCC-Responsive-Web-Design/Technical-Documentation-Page/index.html)
 
-~~[View HTML Source @ Github]()~~
+[View HTML Source @ Github](https://github.com/nessdocs/fCC-Responsive-Web-Design/blob/main/Technical-Documentation-Page/index.html)
 
-~~[View CSS Source @ Github]()~~
+[View CSS Source @ Github](https://github.com/nessdocs/fCC-Responsive-Web-Design/blob/main/Technical-Documentation-Page/styles.css)
 
 ~~### Product Landing Page~~
 
