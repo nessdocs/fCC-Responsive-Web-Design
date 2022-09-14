@@ -97,7 +97,7 @@ code {
     background-color: lightblue;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 955px) {
     
     #navbar {
         position: absolute;
@@ -114,6 +114,11 @@ code {
         position: relative;
         margin-left: 0px;
         margin-top: 275px;
+    }
+
+    iframe {
+        max-width: 100%;
+        height: auto;
     }
 
 }
