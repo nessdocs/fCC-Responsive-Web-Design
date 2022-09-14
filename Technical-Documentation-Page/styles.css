@@ -85,6 +85,12 @@ html {
     line-height: 1.75;
 }
 
+iframe {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
 code {
     margin: 25px 0;
     font-size: 16px;
