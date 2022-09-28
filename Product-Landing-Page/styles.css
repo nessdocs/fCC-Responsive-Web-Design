@@ -6,6 +6,7 @@
 
 html {
     font-family: 'Open Sans', sans-serif;
+    line-height: 1.5em;
 }
 
 header {
@@ -34,7 +35,10 @@ header {
 
 .logo {
     font-size: 1.5rem;
-    margin-left: 10px;
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgba(0, 50, 120, 60%);
 }
 
 #nav-bar ul {
@@ -48,10 +52,206 @@ header {
 #nav-bar li {
     list-style: none;
     padding: 0 25px 0;
+    font-weight: bold;
+}
+
+#nav-bar li a {
+    text-decoration: none;
+    color: rgba(0, 50, 120, 80%);
+}
+
+#nav-bar li a:hover {
+    color: rgba(138, 43, 226, 80%);
 }
 
 #wrapper {
     padding-top: 150px;
     max-width: 750px;
     margin: 0 auto;
+}
+
+section {
+    display: block;
+    padding-bottom: 40px;
+}
+
+h1, h2, h3, h4, h5 {
+    color: rgba(0, 50, 120, 70%);
+    padding-bottom: 30px;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.padding {
+    margin-bottom: 15px;
+}
+
+#email {
+    width: 500px;
+    height: 50px;
+    background-color: rgba(255, 235, 205, 40%);
+    border-color: rgba(0, 50, 120, 70%);
+    font-size: 18px;
+}
+
+#submit {
+    width: 180px;
+    height: 40px;
+    background-color: aliceblue;
+    border-color: rgba(0, 50, 120, 70%);
+    font-size: 16px;
+}
+
+#pricing-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+#price1, #price2, #price3 {
+    border: 1px solid rgba(0, 50, 120, 80%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
+    width: 33%;
+    height: auto;
+}
+
+.price-header {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: blanchedalmond;
+    width: 100%;
+    padding: 10px;
+}
+
+.price-price {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.price-list li {
+    list-style: none;
+    padding: 4px;
+    font-size: 16px;
+}
+
+.price-select {
+    margin: 25px;
+    padding: 10px;
+}
+
+.price-select a {
+    background-color: gold;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.price-select a:hover {
+    background-color: aliceblue;
+}
+
+footer {
+    min-height: 50px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+footer li {
+    list-style: none;
+    padding: 0 25px 0;
+    font-size: 12px;
+}
+
+footer li a {
+    text-decoration: none;
+    color: rgba(0, 50, 120, 80%);
+}
+
+footer li a:hover {
+    color: rgba(138, 43, 226, 80%);
+}
+
+@media (max-width:875px) {
+    header {
+        flex-direction: column;
+        flex-wrap: wrap;
+        min-height: 60px;
+    }
+
+    #header-img {
+        height: 60px;
+        width: auto;
+    }
+
+    #nav-bar ul {
+        flex-direction: column;
+    }
+
+    #nav-bar li {
+        margin: 0 0 8px 0;
+        font-size: 12px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    #wrapper {
+        padding-top: 200px;
+        max-width: 475px;
+        margin: 0 auto;
+    }
+
+    iframe {
+        max-width: 475px;
+        height: auto;
+    }
+
+    footer {
+        padding-top: 20px;
+        flex-direction: column;
+    }
+    
+    footer ul {
+        flex-direction: column;
+    }
+    
+    footer li {
+        padding: 0 0 15px 0;
+    }
 }
