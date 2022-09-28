@@ -39,11 +39,11 @@ Just a short technical doc about watercolor pigment properties. Has a responsive
 
 I based this product landing page on the free-to-use vector bee art I found. It's a very simple page for a fictional honey business. Uses flexbox layout and responsive media queries.
 
-~~[View in Browser](https://nessdocs.github.io/fCC-Responsive-Web-Design/Product-Landing-Page/index.html)~~
+[View in Browser](https://nessdocs.github.io/fCC-Responsive-Web-Design/Product-Landing-Page/index.html)
 
-~~[View HTML Source @ Github](https://github.com/nessdocs/fCC-Responsive-Web-Design/blob/main/Product-Landing-Page/index.html)~~
+[View HTML Source @ Github](https://github.com/nessdocs/fCC-Responsive-Web-Design/blob/main/Product-Landing-Page/index.html)
 
-~~[View CSS Source @ Github](https://github.com/nessdocs/fCC-Responsive-Web-Design/blob/main/Product-Landing-Page/styles.css)~~
+[View CSS Source @ Github](https://github.com/nessdocs/fCC-Responsive-Web-Design/blob/main/Product-Landing-Page/styles.css)
 
 ~~### Personal Portfolio Page~~
 
