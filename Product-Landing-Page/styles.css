@@ -22,9 +22,24 @@ header {
     background-color: blanchedalmond;
 }
 
+@media screen and (max-width:875px) {
+    header {
+        flex-direction: column;
+        flex-wrap: wrap;
+        min-height: 60px;
+    }
+}
+
 #header-img {
     height: 70px;
     width: auto;
+}
+
+@media screen and (max-width:875px) {
+    #header-img {
+        height: 60px;
+        width: auto;
+    }
 }
 
 #logo {
@@ -37,8 +52,14 @@ header {
     font-size: 1.5rem;
     margin-left: 15px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
     color: rgba(0, 50, 120, 60%);
+}
+
+@media screen and (max-width:875px) {
+    .logo {
+        font-size: 1.2rem;
+    }
 }
 
 #nav-bar ul {
@@ -49,10 +70,23 @@ header {
     align-content: center;
 }
 
+@media screen and (max-width:875px) {
+    #nav-bar ul {
+        flex-direction: column;
+    }
+}
+
 #nav-bar li {
     list-style: none;
     padding: 0 25px 0;
     font-weight: bold;
+}
+
+@media screen and (max-width:875px) {
+    #nav-bar li {
+        margin: 0 0 5px 0;
+        font-size: 12px;
+    }
 }
 
 #nav-bar li a {
@@ -65,14 +99,31 @@ header {
 }
 
 #wrapper {
-    padding-top: 150px;
+    display: block;
     max-width: 750px;
+    width: 95%;
     margin: 0 auto;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width:400px) {
+    #wrapper {
+        max-width: 375px;
+    }
+}
+
+
+
+main {
+    display: block;
+    margin: 0 auto;
+    padding-top: 200px;
 }
 
 section {
     display: block;
     padding-bottom: 40px;
+    margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5 {
@@ -99,11 +150,18 @@ h2 {
 }
 
 #email {
-    width: 500px;
+    width: 400px;
     height: 50px;
     background-color: rgba(255, 235, 205, 40%);
     border-color: rgba(0, 50, 120, 70%);
     font-size: 18px;
+}
+
+@media screen and (max-width:875px) {
+    #email {
+        width: 300px;
+        font-size: 16px;
+    }
 }
 
 #submit {
@@ -114,12 +172,32 @@ h2 {
     font-size: 16px;
 }
 
+@media screen and (max-width:875px) {
+    #submit {
+        font-size: 14px;
+    }
+}
+
+iframe {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
 #pricing-row {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     column-gap: 20px;
+}
+
+@media screen and (max-width:875px) {
+    #pricing-row {
+        flex-direction: column;
+        row-gap: 20px;
+    }
 }
 
 #price1, #price2, #price3 {
@@ -129,8 +207,15 @@ h2 {
     align-items: center;
     text-align: center;
     flex-grow: 1;
-    width: 33%;
+    width: calc(100%/3);
     height: auto;
+}
+
+@media screen and (max-width:875px) {
+    #price1, #price2, #price3 {
+        height: calc(100%/3);
+        width: 75%;
+    }
 }
 
 .price-header {
@@ -183,6 +268,13 @@ footer {
     background-color: blanchedalmond;
 }
 
+@media screen and (max-width:875px) {
+    footer {
+        padding-top: 20px;
+        flex-direction: column;
+    }
+}
+
 footer ul {
     display: flex;
     flex-direction: row;
@@ -191,10 +283,22 @@ footer ul {
     align-content: center;
 }
 
+@media screen and (max-width:875px) {
+    footer ul {
+        flex-direction: column;
+    }
+}
+
 footer li {
     list-style: none;
     padding: 0 25px 0;
     font-size: 12px;
+}
+
+@media screen and (max-width:875px) {
+    footer li {
+        padding: 0 0 15px 0;
+    }
 }
 
 footer li a {
@@ -204,54 +308,4 @@ footer li a {
 
 footer li a:hover {
     color: rgba(138, 43, 226, 80%);
-}
-
-@media (max-width:875px) {
-    header {
-        flex-direction: column;
-        flex-wrap: wrap;
-        min-height: 60px;
-    }
-
-    #header-img {
-        height: 60px;
-        width: auto;
-    }
-
-    #nav-bar ul {
-        flex-direction: column;
-    }
-
-    #nav-bar li {
-        margin: 0 0 8px 0;
-        font-size: 12px;
-    }
-
-    .logo {
-        font-size: 18px;
-    }
-
-    #wrapper {
-        padding-top: 200px;
-        max-width: 475px;
-        margin: 0 auto;
-    }
-
-    iframe {
-        max-width: 475px;
-        height: auto;
-    }
-
-    footer {
-        padding-top: 20px;
-        flex-direction: column;
-    }
-    
-    footer ul {
-        flex-direction: column;
-    }
-    
-    footer li {
-        padding: 0 0 15px 0;
-    }
 }
