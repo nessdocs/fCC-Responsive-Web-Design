@@ -1,0 +1,33 @@
+body {
+    background-color: #464159;
+}
+
+a:link {
+    color: #4f2fb6;
+}
+
+a:visited {
+    color: #4f2fb6;
+}
+
+a:hover {
+    color: lightskyblue;
+}
+
+.nav ul li {
+    background-color: #6C7B95;
+    transition: background-color 0.2s;
+}
+
+.nav a:link {
+    color: white;
+}
+
+.nav a:visited {
+    color: white;
+}
+
+.nav ul li:hover {
+    background-color: lightskyblue;
+    color: black;
+}
