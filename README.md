@@ -47,7 +47,7 @@ I based this product landing page on the free-to-use vector bee art I found. It'
 
 ### Personal Portfolio Page
 
-*In Progress*
+This portfolio page accommodates both writing samples and coding projects. Has a responsive layout that uses CSS flexbox and CSS grid components. Tested with all of the device dimensions on Chrome's developer tools.
 
 [View in Browser](https://nessdocs.github.io/fCC-Responsive-Web-Design/Personal-Portfolio-Webpage/index.html)
 
