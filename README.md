@@ -45,12 +45,12 @@ I based this product landing page on the free-to-use vector bee art I found. It'
 
 [View CSS Source @ Github](https://github.com/nessdocs/fCC-Responsive-Web-Design/blob/main/Product-Landing-Page/styles.css)
 
-~~### Personal Portfolio Page~~
+### Personal Portfolio Page
 
-~~*In Progress*~~
+*In Progress*
 
-~~[View in Browser]()~~
+[View in Browser](https://nessdocs.github.io/fCC-Responsive-Web-Design/Personal-Portfolio-Webpage/index.html)
 
-~~[View HTML Source @ Github]()~~
+[View HTML Source @ Github](https://github.com/nessdocs/fCC-Responsive-Web-Design/blob/main/Personal-Portfolio-Webpage/index.html)
 
-~~[View CSS Source @ Github]()~~
+[View CSS Source @ Github](https://github.com/nessdocs/fCC-Responsive-Web-Design/blob/main/Personal-Portfolio-Webpage/styles.css)
